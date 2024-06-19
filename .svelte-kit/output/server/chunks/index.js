@@ -3425,7 +3425,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "pu9bfb"
+  version_hash: "hwhkxg"
 };
 async function get_hooks() {
   return {};
@@ -3571,7 +3571,7 @@ const popupCenter = ({
 };
 let authClient;
 const NNS_IC_ORG_ALTERNATIVE_ORIGIN = "https://opencare.services";
-const NNS_IC_APP_DERIVATION_ORIGIN = "https://f2lwq-yaaaa-aaaal-qjfca-cai.icp0.io";
+const NNS_IC_APP_DERIVATION_ORIGIN = "https://coktq-biaaa-aaaal-qjfrq-cai.icp0.io";
 const isNnsAlternativeOrigin = () => {
   if (typeof window === "undefined") return false;
   return window.location.origin === NNS_IC_ORG_ALTERNATIVE_ORIGIN;
