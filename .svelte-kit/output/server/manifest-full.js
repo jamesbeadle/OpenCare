@@ -10,7 +10,7 @@ return {
 	assets: new Set([".DS_Store",".ic-assets.json",".well-known/ic-domains",".well-known/ii-alternative-origins","Rubik-Regular.woff2","background.jpg","favicons/.DS_Store","favicons/apple-touch-icon.png","favicons/browserconfig.xml","favicons/favicon-16x16.png","favicons/favicon-32x32.png","favicons/favicon.ico","favicons/icon-192x192.png","favicons/icon-512x512.png","favicons/mstile-150x150.png","favicons/safari-pinned-tab.svg","manifest.webmanifest","meta-share.jpg","placeholder.png"]),
 	mimeTypes: {".json":"application/json",".woff2":"font/woff2",".jpg":"image/jpeg",".png":"image/png",".xml":"text/xml",".svg":"image/svg+xml",".webmanifest":"application/manifest+json"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.DxKkQ6C5.js","app":"_app/immutable/entry/app.DldmOMRl.js","imports":["_app/immutable/entry/start.DxKkQ6C5.js","_app/immutable/chunks/index.CM1lh16n.js","_app/immutable/chunks/vendor.ChYYjGrd.js","_app/immutable/entry/app.DldmOMRl.js","_app/immutable/chunks/index.CM1lh16n.js","_app/immutable/chunks/vendor.ChYYjGrd.js"],"stylesheets":["_app/immutable/assets/index.BxBnBMjC.css","_app/immutable/assets/index.BxBnBMjC.css"],"fonts":[],"uses_env_dynamic_public":false},
+		client: {"start":"_app/immutable/entry/start.CAwOH54_.js","app":"_app/immutable/entry/app.BtYvvDpI.js","imports":["_app/immutable/entry/start.CAwOH54_.js","_app/immutable/chunks/index.CxbgWvhF.js","_app/immutable/chunks/vendor.Blms7SOb.js","_app/immutable/entry/app.BtYvvDpI.js","_app/immutable/chunks/index.CxbgWvhF.js","_app/immutable/chunks/vendor.Blms7SOb.js"],"stylesheets":["_app/immutable/assets/index.BkWgrBfz.css","_app/immutable/assets/index.BkWgrBfz.css"],"fonts":[],"uses_env_dynamic_public":false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),
@@ -42,8 +42,8 @@ return {
 				endpoint: null
 			},
 			{
-				id: "/rules",
-				pattern: /^\/rules\/?$/,
+				id: "/whitepaper",
+				pattern: /^\/whitepaper\/?$/,
 				params: [],
 				page: { layouts: [0,], errors: [1,], leaf: 5 },
 				endpoint: null

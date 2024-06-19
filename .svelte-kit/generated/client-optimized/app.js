@@ -15,7 +15,7 @@ export const dictionary = {
 		"/": [2],
 		"/private-agencies": [3],
 		"/profile": [4],
-		"/rules": [5]
+		"/whitepaper": [5]
 	};
 
 export const hooks = {

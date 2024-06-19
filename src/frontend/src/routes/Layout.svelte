@@ -125,9 +125,9 @@
     <Spinner />
   </div>
 {:then _}
-  <div class="menu-row flex items-center bg-Brand5b w-full p-2">
+  <div class="menu-row flex items-center bg-OpenCareLightPink w-full p-2 text-OpenCareBrown">
     <button on:click={handleButtonClick} class="flex items-center">
-      <MenuIcon fill='#FFFFFF' className="w-5 m-1" />
+      <MenuIcon fill='#73504D' className="w-5 m-1" />
     </button>
     <div class="ml-auto">
       <a class="flex flex-row items-center ml-auto" href="/">
@@ -137,7 +137,7 @@
     </div>
   </div>
 
-<aside class="bg-Brand5 p-4" bind:this={sidebar} class:expanded={expanded}>
+<aside class="bg-OpenCarePurple p-4" bind:this={sidebar} class:expanded={expanded}>
   <div class="p-2">
     <div class="p-2 flex justify-between items-center">
       <h2 class="text-xl font-bold p-2">Options</h2>
@@ -155,12 +155,12 @@
           {#if option.name === 'Connect'}
 
             {#if $authSignedInStore}
-              <a href={option.href} class="block rounded hover:bg-Brand5b px-4 py-2" on:click={handleLogout}>Disconnect</a>
+              <a href={option.href} class="block rounded hover:bg-OpenCareLightPink hover:text-OpenCareBrown px-4 py-2" on:click={handleLogout}>Disconnect</a>
             {:else}
-              <a href={option.href} class="block rounded hover:bg-Brand5b px-4 py-2" on:click={handleLogin}>Connect</a>
+              <a href={option.href} class="block rounded hover:bg-OpenCareLightPink hover:text-OpenCareBrown px-4 py-2" on:click={handleLogin}>Connect</a>
             {/if}
           {:else}
-            <a href={option.href} class="block rounded hover:bg-Brand5b px-4 py-2">{option.name}</a>
+            <a href={option.href} class="block rounded hover:bg-OpenCareLightPink hover:text-OpenCareBrown px-4 py-2">{option.name}</a>
           {/if}
         </li>
       {/each}
@@ -171,7 +171,7 @@
     <ul class="space-y-2 text-xs">
       {#each lessImportantOptions as option}
         <li>
-          <a href={option.href} class="block rounded hover:bg-Brand5b px-4 py-2">{option.name}</a>
+          <a href={option.href} class="block rounded hover:bg-OpenCareLightPink hover:text-OpenCareBrown px-4 py-2">{option.name}</a>
         </li>
       {/each}
     </ul>

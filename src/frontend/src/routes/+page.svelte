@@ -20,7 +20,7 @@ import Layout from "./Layout.svelte";
         </div>
         <p class="my-2">The future of social care.</p>
         <a href="/lightpaper">
-            <button class="bg-Brand1b my-2 px-4 py-2 rounded-sm">Lightpaper</button>
+            <button class="bg-OpenCarePurple my-2 px-4 py-2 rounded-sm">Lightpaper</button>
         </a>
     </div>
 </Layout>
