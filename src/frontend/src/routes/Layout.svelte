@@ -26,7 +26,7 @@
   ];
 
   let lessImportantOptions = [
-    { name: 'Lightpaper', href: '/lightpaper' }
+    { name: 'Whitepaper', href: '/whitepaper' }
   ];
 
   const syncAuthStore = async () => {

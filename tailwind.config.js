@@ -43,6 +43,7 @@ export default {
         OpenCareLightPink: "#F2C4E2",
         OpenCareBlue: "#A0C3D9",
         OpenCareBrown: "#73504D",
+        OpenCareGray: "#BFBFBD",
       },
     },
   },

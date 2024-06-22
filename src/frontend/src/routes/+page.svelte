@@ -19,8 +19,8 @@ import Layout from "./Layout.svelte";
             <LogoIcon fill='#FFFFFF' className="w-10 ml-4" />
         </div>
         <p class="my-2">The future of social care.</p>
-        <a href="/lightpaper">
-            <button class="bg-OpenCarePurple my-2 px-4 py-2 rounded-sm">Lightpaper</button>
+        <a href="/whitepaper">
+            <button class="bg-OpenCarePurple my-2 px-4 py-2 rounded-sm">Whitepaper</button>
         </a>
     </div>
 </Layout>
