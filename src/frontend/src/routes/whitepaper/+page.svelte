@@ -43,7 +43,7 @@
   
   <Layout>
     <div class="p-2">
-      <div class="flex flex-col bg-OpenCarePurple rounded-md rounded-b-lg xs:text-lg sm:text-xl">
+      <div class="flex flex-col bg-OpenCarePink rounded-md rounded-b-lg xs:text-lg sm:text-xl">
         <div class="flex flex-row items-center px-4 border-b border-b-OpenCarePink justify-between">
           <div class="flex items-center">
             <BlackLogoIcon className="w-4 xs:w-6 sm:w-8 mx-1 xs:mx-2 sm:mx-3 my-2" />
@@ -51,7 +51,7 @@
           </div>
         </div>
   
-        <div class="w-full bg-OpenCareBlue p-4 rounded-b-md flex flex-col text-sm xs:text-base sm:text-lg">
+        <div class="w-full bg-OpenCareLightPink p-4 rounded-b-md flex flex-col text-sm xs:text-base sm:text-lg text-black">
           
           {#each tabs as { name, component }}
             {#if activeTab === name.toLowerCase()}
