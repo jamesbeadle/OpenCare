@@ -39,7 +39,7 @@ export default {
     extend: {
       colors: {
         OpenCarePurple: "#733250",
-        OpenCarePink: "#F279B2",
+        OpenCarePink: "#FF69B4",
         OpenCareLightPink: "#F2C4E2",
         OpenCareBlue: "#A0C3D9",
         OpenCareBrown: "#73504D",

@@ -15,12 +15,7 @@ import Layout from "./Layout.svelte";
 <Layout>    
     <div class="p-4">
         <div class="flex flex-row items-center">
-            <p class="text-2xl">Welcome to OpenCare</p>
-            <LogoIcon fill='#FFFFFF' className="w-10 ml-4" />
+            <p class="text-2xl">Coming soon.</p>
         </div>
-        <p class="my-2">The future of social care.</p>
-        <a href="/whitepaper">
-            <button class="bg-OpenCarePurple my-2 px-4 py-2 rounded-sm">Whitepaper</button>
-        </a>
     </div>
 </Layout>

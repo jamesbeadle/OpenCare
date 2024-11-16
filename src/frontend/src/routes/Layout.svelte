@@ -125,10 +125,7 @@
     <Spinner />
   </div>
 {:then _}
-  <div class="menu-row flex items-center bg-OpenCareLightPink w-full p-2 text-OpenCareBrown">
-    <button on:click={handleButtonClick} class="flex items-center">
-      <MenuIcon fill='#73504D' className="w-5 m-1" />
-    </button>
+  <div class="menu-row flex items-center bg-OpenCarePink w-full p-2 text-white">
     <div class="ml-auto">
       <a class="flex flex-row items-center ml-auto" href="/">
         <p class="text-sm">OpenCare</p>
@@ -137,46 +134,6 @@
     </div>
   </div>
 
-<aside class="bg-OpenCarePurple p-4" bind:this={sidebar} class:expanded={expanded}>
-  <div class="p-2">
-    <div class="p-2 flex justify-between items-center">
-      <h2 class="text-xl font-bold p-2">Options</h2>
-      <button on:click={handleCloseButtonClick} class="close-button">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-        </svg>
-      </button>
-    </div>
-    
-    <ul class="mt-4 space-y-2">
-      {#each links as option}
-        <li>
-          
-          {#if option.name === 'Connect'}
-
-            {#if $authSignedInStore}
-              <a href={option.href} class="block rounded hover:bg-OpenCareLightPink hover:text-OpenCareBrown px-4 py-2" on:click={handleLogout}>Disconnect</a>
-            {:else}
-              <a href={option.href} class="block rounded hover:bg-OpenCareLightPink hover:text-OpenCareBrown px-4 py-2" on:click={handleLogin}>Connect</a>
-            {/if}
-          {:else}
-            <a href={option.href} class="block rounded hover:bg-OpenCareLightPink hover:text-OpenCareBrown px-4 py-2">{option.name}</a>
-          {/if}
-        </li>
-      {/each}
-    </ul>
-  </div>
-  <div class="less-important p-2">
-    <div class="horizontal-divider my-2" />
-    <ul class="space-y-2 text-xs">
-      {#each lessImportantOptions as option}
-        <li>
-          <a href={option.href} class="block rounded hover:bg-OpenCareLightPink hover:text-OpenCareBrown px-4 py-2">{option.name}</a>
-        </li>
-      {/each}
-    </ul>
-  </div>
-</aside>
   <div class="flex">
     <div class="flex-1 p-4">
       <slot />
